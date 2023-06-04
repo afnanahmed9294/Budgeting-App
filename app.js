@@ -34,7 +34,7 @@ function renderList(){
     list.innerHTML = "";
     status.textContent = "";
     if(transactions.length === 0){
-        status.textContent ='No Transaction Records Availble.';
+        status.textContent ='No Transaction Records Available.';
         return;
     } 
         
